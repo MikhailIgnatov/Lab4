@@ -65,7 +65,7 @@ func getPNG(featureCollectionJSON []byte, z float64, x float64, y float64) (stri
 		drawByPolygonCoordinates(dc, polygonCoordinates, scale, dc.Stroke, z, x, y)
 	})
 
-	var out = strconv.Itoa(rand.Intn(10000)) + ".png"
+	var out = "out.png"
 
 	dc.SavePNG(out)
 

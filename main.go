@@ -6,8 +6,6 @@ import (
 
 	"io/ioutil"
 	"math"
-	"math/rand" // пакет для поддержки HTTP протокола
-	"strconv"
 
 	"github.com/davvo/mercator"
 	"github.com/fogleman/gg"
